@@ -4,10 +4,9 @@ PlatformIO CLI使用說明筆記
 ### Blink Project
 ##### Used in demo
 
-1. Source code of Wiring Blink Example
+1. Source code of <a href="https://github.com/platformio/platformio-examples/tree/develop/wiring-blink" title="MSN Search">Wiring Blink Example</a>
 2. platformio run 
 3. platformio run -t upload
-
 ##### How to build PlatformIO based project
 
 1. Install PlatformIO Core(written in Python 2.7)
