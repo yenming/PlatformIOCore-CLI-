@@ -10,7 +10,7 @@ PlatformIO CLI使用說明筆記
 
 ##### How to build PlatformIO based project
 
-1. Install PlatformIO Core
+1. Install PlatformIO Core(written in Python 2.7)
 2. Download <a href="https://github.com/platformio/platformio-examples/archive/develop.zip" title="MSN Search">examples source code</a>
 3. Extract ZIP archive
 4. Run these commands
