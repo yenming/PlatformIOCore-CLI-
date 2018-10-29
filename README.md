@@ -42,7 +42,7 @@ PlatformIO CLI使用說明筆記
 1. Platform Manager
 ```
 platformio platform --help
-platformio platform COMMAND --help
+platformio platform [COMMAND] --help
 ```
 2. platformio platform list
 3. platformio platform search avr
