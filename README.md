@@ -41,22 +41,44 @@ PlatformIO CLI使用說明筆記
 1. Platform Manager
 
 ```
-platformio platform --help
-platformio platform [COMMAND] --help
+$ platformio platform --help
+$ platformio platform [COMMAND] --help
 ```
 
 2. platformio platform list (List installed Development Platforms)
-```
-platformio platform list [OPTIONS]
-```
-
-3. platformio platform search avr
-4. platformio platform show teensy
-5. platformio platform update.
 
 ```
+$ platformio platform list [OPTIONS]
+```
+
+3. platformio platform search (Search for development Development Platforms)
 
 ```
+$ platformio platform search QUERY [OPTIONS]
+$ pio platform search QUERY [OPTIONS]
+```
+
+4. platformio platform show teensy (Show details about Development Platforms)
+
+```
+$ platformio platform show [PLATFORM]
+$ pio platform show [PLATFORM]
+```
+
+5. platformio platform update()
+
+```
+$ platformio platform list [OPTIONS]
+```
+6. platformio platform uninstall (Uninstall specified Development Platforms)
+```
+$ platformio platform uninstall [PLATFORM...]
+$ pio platform uninstall [PLATFORM...]
+
+# uninstall specific platform version using Semantic Versioning
+$ platformio platform uninstall PLATFORM@X.Y.Z
+```
+
 ### Library Manager
 ##### Used in demo
 ```
