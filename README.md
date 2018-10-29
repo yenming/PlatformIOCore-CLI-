@@ -38,6 +38,12 @@ PlatformIO CLI使用說明筆記
 
 ### Platform Manager
 ##### Used in demo
+1. Platform Manager
+2. platformio platform list
+3. platformio platform search avr
+4. platformio platform show teensy
+5. platformio platform update.
+
 ```
 
 ```
