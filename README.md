@@ -45,7 +45,11 @@ platformio platform --help
 platformio platform [COMMAND] --help
 ```
 
-2. platformio platform list
+2. platformio platform list (List installed Development Platforms)
+```
+platformio platform list [OPTIONS]
+```
+
 3. platformio platform search avr
 4. platformio platform show teensy
 5. platformio platform update.
