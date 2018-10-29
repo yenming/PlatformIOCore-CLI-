@@ -65,10 +65,14 @@ $ platformio platform show [PLATFORM]
 $ pio platform show [PLATFORM]
 ```
 
-5. platformio platform update()
+5. platformio platform update(Check or update installed Development Platforms)
 
 ```
-$ platformio platform list [OPTIONS]
+$ platformio platform update [OPTIONS] [PLATFORM...]
+$ pio platform update [OPTIONS] [PLATFORM...]
+
+# update specific platform version using Semantic Versioning
+$ platformio platform update PLATFORM@X.Y.Z
 ```
 6. platformio platform uninstall (Uninstall specified Development Platforms)
 ```
@@ -78,7 +82,15 @@ $ pio platform uninstall [PLATFORM...]
 # uninstall specific platform version using Semantic Versioning
 $ platformio platform uninstall PLATFORM@X.Y.Z
 ```
+7. platformio remote
+```
+$ pio remote --help
+$ platformio remote --help
+$ platformio remote [COMMAND] --help
 
+# run command on the specified PIO Remote Agents
+ platformio remote --agent NAME_1 --agent NAME_N COMMAND
+```
 ### Library Manager
 ##### Used in demo
 ```
