@@ -5,13 +5,13 @@ PlatformIO CLI使用說明筆記
 ##### Used in demo
 
 1. Source code of Wiring Blink Example
-2. platformio run command
-3. platformio run -t upload command.
+2. platformio run 
+3. platformio run -t upload
 
 ##### How to build PlatformIO based project
 
-1. Install PlatformIO Core</li>
-2. Download <a href="https://github.com/platformio/platformio-examples/archive/develop.zip" title="MSN Search">examples source code</a>.
+1. Install PlatformIO Core
+2. Download <a href="https://github.com/platformio/platformio-examples/archive/develop.zip" title="MSN Search">examples source code</a>
 3. Extract ZIP archive
 4. Run these commands
 
@@ -40,10 +40,12 @@ PlatformIO CLI使用說明筆記
 ##### Used in demo
 
 1. Platform Manager
+
 ```
 platformio platform --help
 platformio platform [COMMAND] --help
 ```
+
 2. platformio platform list
 3. platformio platform search avr
 4. platformio platform show teensy
