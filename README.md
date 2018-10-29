@@ -2,6 +2,12 @@
 PlatformIO CLI使用說明筆記
 
 ### Blink Project
+### Used in demo
+
+1. Source code of Wiring Blink Example
+2. platformio run command
+3. platformio run -t upload command.
+
 ##### How to build PlatformIO based project
 <ul>
   <li>1 .Install PlatformIO Core</li>
