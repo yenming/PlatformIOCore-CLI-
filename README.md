@@ -89,25 +89,25 @@ $ platformio remote --help
 $ platformio remote [COMMAND] --help
 
 # run command on the specified PIO Remote Agents
- platformio remote --agent NAME_1 --agent NAME_N COMMAND
+ $ platformio remote --agent NAME_1 --agent NAME_N COMMAND
 ```
 ### Library Manager
 ##### Used in demo
 ```
 Library Manager
-platformio lib search 1-wire 
-platformio lib install 54 
-platformio lib search -f mbed 
-platformio lib search -k rf 
-platformio lib search radiohead 
-platformio lib install 124 –version “1.40” 
-platformio lib show 124 
-platformio lib update 
+$ platformio lib search 1-wire 
+$ platformio lib install 54 
+$ platformio lib search -f mbed 
+$ platformio lib search -k rf 
+$ platformio lib search radiohead 
+$ platformio lib install 124 –version “1.40” 
+$ platformio lib show 124 
+$ platformio lib update 
 ```
 ### Over-the-Air update for ESP8266
 ##### Used in demo
 ```
-1. platformio run 
-2. platformio run -t upload
+$ platformio run 
+$ platformio run -t upload
 
 ```
