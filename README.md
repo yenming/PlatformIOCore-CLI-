@@ -12,6 +12,8 @@ PlatformIO CLI使用說明筆記
 </ul>
 
 ```
+# Change directory to example
+> $cd platformio-examples/wiring-blink
 
 # Build project
 > $platformio run
