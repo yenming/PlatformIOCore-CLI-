@@ -9,10 +9,12 @@ PlatformIO CLI使用說明筆記
 3. platformio run -t upload command.
 
 ##### How to build PlatformIO based project
-1 .Install PlatformIO Core</li>
+
+1. Install PlatformIO Core</li>
 2. Download <a href="https://github.com/platformio/platformio-examples/archive/develop.zip" title="MSN Search">examples source code</a>.
 3. Extract ZIP archive
 4. Run these commands
+
 
 ```
 # Change directory to example
